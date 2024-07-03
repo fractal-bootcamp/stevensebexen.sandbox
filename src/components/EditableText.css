@@ -1,0 +1,30 @@
+.editable-text {
+  flex-basis: 100%;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  max-width: 400px;
+  padding: 2px 4px;
+}
+
+.editable-text-label {
+  flex-basis: 100px;
+  flex-grow: 0;
+  margin-block: 0px;
+}
+
+.editable-text:hover {
+  outline: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+
+.editable-text:focus {
+  outline: 2px solid #d831bc;
+  border-radius: 4px;
+}
+
+.editable-text-row {
+  display: flex;
+  flex-basis: auto;
+  gap: 4px;
+}

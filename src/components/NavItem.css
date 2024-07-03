@@ -1,0 +1,19 @@
+.nav-item {
+  display: flex;
+  max-width: 200px;
+  height: 50px;
+  background-color: hsla(0, 0%, 100%, 0.267);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  background-color: #c77ea0;
+}
+
+.nav-item-text {
+  padding: 4px 12px;
+}
