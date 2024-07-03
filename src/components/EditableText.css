@@ -1,5 +1,4 @@
 .editable-text {
-  display: inline;
   flex-basis: 100%;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0);
@@ -11,7 +10,6 @@
 .editable-text-label {
   flex-basis: 100px;
   flex-grow: 0;
-  display: inline;
   margin-block: 0px;
 }
 
